@@ -16,6 +16,9 @@ a{
 footer{
     background-color: #686D76;
 }
+#shadow-host-companion{
+    padding-bottom: 0;
+}
 .nav{
     display: flex;
     flex-direction: row;
