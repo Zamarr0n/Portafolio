@@ -1,0 +1,110 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #EEEEEE;
+}
+section{
+    padding-bottom: 10rem;
+}
+h2{
+    padding-bottom: 2.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: #686D76;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav > li{
+    list-style: none;
+}
+.nav> a{
+    margin:15px;
+}
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 2.5rem;
+}
+.card-text{
+    text-align: justify;
+}
+.head{
+    background-color: #686D76;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+}
+.education_div{
+    padding-bottom: 1rem;
+}
+.title_education{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.index_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.padding_left{
+    padding-left: 1rem;
+}
+.bottom_space{
+    padding-bottom: 4rem;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.align_text{
+    max-width: 80%;
+    text-align: center;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.align_list{
+    max-width: 40%;
+    text-align: center;
+    text-align: justify;
+    margin: 0 auto;
+}
+.flex-responsive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .flex-responsive{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex_space{
+        padding-bottom: 3rem;
+    }
+}
+
+
