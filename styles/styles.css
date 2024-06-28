@@ -88,6 +88,11 @@ li{
     display: flex;
     flex-direction: row;
 }
+.flex_row_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .align_text{
     max-width: 80%;
